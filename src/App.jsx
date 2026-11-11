@@ -1,5 +1,5 @@
 import './App.css'
-import sakshiPhoto from './assets/Sak.jpeg'
+import sakshiPhoto from './assets/sak.jpeg'
 
 function App() {
   const skills = [
