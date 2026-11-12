@@ -1,5 +1,5 @@
 import './App.css'
-import sakshiPhoto from './assets/sak.jpeg'
+/*import sakshiPhoto from './assets/sak.jpeg'*/
 
 function App() {
   const skills = [
@@ -65,12 +65,12 @@ function App() {
           </div>
         </div>
 
-        <div className="hero-image">
+      {/* <div className="hero-image">
           <div className="image-glow">
             <img src={sakshiPhoto} alt="Sakshi Gavali" />
           </div>
           <div className="image-caption">FULL STACK Developer</div>
-        </div>
+        </div>*/}
       </section>
 
       {/* ABOUT */}

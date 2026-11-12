@@ -77,7 +77,7 @@ body {
 }
 
 /* HERO SECTION */
-.hero-section {
+{/*.hero-section {
   min-height: 680px;
   padding: 90px 10%;
   display: flex;
@@ -90,6 +90,26 @@ body {
 
 .hero-content {
   max-width: 600px;
+} */}
+
+/* HERO SECTION - WITHOUT PHOTO */
+
+.hero-section {
+  min-height: 680px;
+  padding: 90px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background:
+    radial-gradient(circle at 50% 48%,
+    rgba(0, 117, 255, 0.17), transparent 45%);
+}
+
+.hero-content {
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
 }
 
 .welcome,
@@ -120,8 +140,16 @@ body {
   font-weight: 600;
 }
 
-.intro {
+{/*.intro {
   max-width: 520px;
+  color: #aabbd0;
+  font-size: 15px;
+  line-height: 1.9;
+} */}
+
+.intro {
+  max-width: 650px;
+  margin: auto;
   color: #aabbd0;
   font-size: 15px;
   line-height: 1.9;
@@ -185,7 +213,7 @@ body {
 }
 
 /* PROFILE PHOTO */
-.hero-image {
+{/*.hero-image {
   flex-shrink: 0;
   text-align: center;
 }
@@ -228,7 +256,7 @@ body {
   50% {
     transform: translateY(-12px);
   }
-}
+} */}
 
 /* COMMON SECTIONS */
 .section {
@@ -432,6 +460,16 @@ body {
     gap: 15px;
   }
 
+  .hero-section {
+  flex-direction: column;
+  text-align: center;
+  padding: 60px 7%;
+}
+
+.hero-image {
+  display: none;
+}
+
   .navbar nav {
     justify-content: center;
     flex-wrap: wrap;
@@ -592,4 +630,38 @@ body {
   color: #ffffff;
   text-shadow: 0 0 15px #00d4ff,
     0 0 25px #00d4ff;
+}
+
+/* REMOVE PROFILE PHOTO */
+
+.hero-image {
+  display: none;
+}
+
+/* HERO SECTION WITHOUT PHOTO */
+
+.hero-section {
+  justify-content: center;
+}
+
+.hero-content {
+  max-width: 750px;
+}
+
+/* Center all hero buttons and social links */
+.hero-content {
+  text-align: center;
+}
+
+.hero-buttons,
+.social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.social-links {
+  margin-top: 25px;
 }
