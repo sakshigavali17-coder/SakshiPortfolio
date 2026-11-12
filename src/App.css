@@ -77,7 +77,7 @@ body {
 }
 
 /* HERO SECTION */
-{/*.hero-section {
+/*.hero-section {
   min-height: 680px;
   padding: 90px 10%;
   display: flex;
@@ -90,7 +90,7 @@ body {
 
 .hero-content {
   max-width: 600px;
-} */}
+} */
 
 /* HERO SECTION - WITHOUT PHOTO */
 
@@ -140,12 +140,12 @@ body {
   font-weight: 600;
 }
 
-{/*.intro {
+/*.intro {
   max-width: 520px;
   color: #aabbd0;
   font-size: 15px;
   line-height: 1.9;
-} */}
+} */
 
 .intro {
   max-width: 650px;
@@ -213,7 +213,8 @@ body {
 }
 
 /* PROFILE PHOTO */
-{/*.hero-image {
+
+/*.hero-image {
   flex-shrink: 0;
   text-align: center;
 }
@@ -256,7 +257,7 @@ body {
   50% {
     transform: translateY(-12px);
   }
-} */}
+} */
 
 /* COMMON SECTIONS */
 .section {
